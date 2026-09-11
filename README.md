@@ -4,7 +4,7 @@ from datetime import datetime
 API_URL = "https://api.etherscan.io/v2/api"
 
 API_KEY = "YOUR_ETHERSCAN_API_KEY"
-WALLET = "0x0000000000000000000000000000000000000000"
+ = "0x0000000000000000000000000000000000000000"
 
 def get_transactions(wallet):
     params = {
