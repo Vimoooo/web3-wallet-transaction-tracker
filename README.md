@@ -8,7 +8,7 @@ WALLET = "0x0000000000000000000000000000000000000000"
 
 def get_transactions(wallet):
     params = {
-        "": 1,
+        "chainid": 1,
         "module": "account",
         "action": "txlist",
         "address": wallet,
